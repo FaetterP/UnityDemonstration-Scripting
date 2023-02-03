@@ -3,9 +3,12 @@ guid: 1645d1c2d645f4046881355711420711
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - GameObject: {instanceID: 0}
+  - _transform: {instanceID: 0}
+  - _sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   executionOrder: 0
-  icon: {instanceID: 0}
+  icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
