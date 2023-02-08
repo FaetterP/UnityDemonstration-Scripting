@@ -19,6 +19,7 @@ namespace Assets.Scripts
         [SerializeField] [Range(1, 5)] private int _range;
         [SerializeField] private Color _color;
         [SerializeField] private Gradient _gradient;
+        [SerializeField] private LayerMask _layerMask;
 
         [Header("Invisible fields")]
         [SerializeField] private const int _constInt = 3;
@@ -35,14 +36,15 @@ namespace Assets.Scripts
         [SerializeField] private ControllerType _controller;
 
         [Header("Colors")]
+        [SerializeField] private Color _defaultColor;
         [SerializeField] [ColorUsage(true)] private Color _colorWithAplha;
         [SerializeField] [ColorUsage(true, true)] private Color _colorHDR;
 
         [Header("Gradient")]
+        [SerializeField] private Gradient _defaultGradient;        
         [SerializeField] [GradientUsage(true)] private Gradient _gradientHDR;        
 
-        [Header("default values")]
-        [SerializeField] private LayerMask _layerMask;
+        [Header("Default values")]
         [SerializeField] private Transform _transform;
         [SerializeField] private Sprite _sprite;
     }
